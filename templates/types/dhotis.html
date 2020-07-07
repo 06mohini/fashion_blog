@@ -1,0 +1,213 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Cotton Printed Dhoti Pants</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These printed dhoti pants from Kaanchie Nanggia are crafted in cotton.
+             Styled in tapered look, these dhoti pants can be paired with any kurta or tunic to
+              create that go-to look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Cotton Kurta With Dhoti </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Add a subtle twist to your look with this kurta and dhoti set. Pair it with
+             embellished kolhapuris and fine accessories to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Gota
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White High Slit Kurta With Dhoti </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurta features a band collared neck, 3/4th sleeves, embroidery detailing 
+            and a front slit. This set comes with matching dhoti pants..</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Round Neck Embellished Top With Dhoti & Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink embellished top, jacket and dhoti pants set by W is crafted in viscose. 
+            The top is sleeveless and features a round neck. The jacket features 3/4th sleeves.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Flex Dhoti Style Saree With Blouse </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The saree features a printed detailing all over and the blouse features a round neck,
+             3/4th flared sleeves, a pleated detailing at the hem and a zip closure at the back. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Printed<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Printed Top With Dhoti Pants & Shrug With Necklace </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">It comprises a sleeveless printed top, solid dhoti pants, floral print shrug and 
+            a fabric necklace. The main fabric of this set is viscose and top has cotton lining. The print,
+             color and style of this kurta is quite contemporary and apt to give your look a trendy touch.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type : Fusion Style
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Ivory Cowled Top With Dhoti </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The top features a cowl neck accented with a back tie-up detail, a sleeveless design,
+             an asymmetrical hemline accented with an embellished lace trim detail and a slim fit. The dhoti
+              pants feature a mid-rise waist, a petal wrap style, tapered ankles and a regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dhotis8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Solid Top With Dhoti Pants & Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A chic three piece set from our fusion wear collection. It is a combination of tank
+             top paired with a Shibori printed shrug featuring stylized sleeves complemented with Shibori
+              printed green dhoti and a long tassel necklace.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

@@ -1,0 +1,202 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+<div class="container-fluid mx-auto">
+    <center><h1><b><i> Western Wear </i></b></h1></center><br><br>
+    <div class="row mx-auto">
+        <div class="col-md-3">
+            <img src="{% static 'img/3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        </div>
+        <div id="pic" class="col-md-6">
+            <center><p><i>Western dress codes are dress codes in Western culture about what clothes are worn for what 
+                occasion. Classifications are traditionally divided into formal wear (full dress), semi-formal wear 
+                (half dress), and informal wear (undress). The first two sometimes in turn divided into day and evening
+                 wear. Anything below this level is referred to as casual wear, although sometimes in combinations
+                 such as "smart casual" or "business casual" in order to indicate higher expectation than none at all.
+                Formal i.e. white tie, semi-formal i.e. black tie, and informal i.e. suit, all have roots in 19th century
+                customs subsequent to the replacement of the 18th century generic justaucorps, and has remained essentially 
+                fixed defined since the 20th century, despite decline following the counterculture of the 1960s. 
+             </i>
+           </p></center>
+        </div>
+        <div class="col-md-3">
+           <img src="{% static 'img/5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        </div>
+     </div>
+     </div>   
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Western  Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                    <a href="{% url 'dresses' %}">
+                    <h5>Dresses</h5></a>
+                    <a href="{% url 'tops' %}">
+                    <h5>Tops</h5></a>
+                    <a href="{% url 'cardigans' %}">
+                    <h5>Cardigans & Sweaters</h5></a>
+                    <a href="{% url 'gowns' %}">
+                    <h5>Gowns</h5></a>
+                    <a href="{% url 'jackets' %}">
+                    <h5>Jackets & Coats</h5></a>
+                    <a href="{% url 'jumpsuits' %}">
+                    <h5>Jumpsuits</h5></a>
+                    <a href="{% url 'Skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'sweatshirts' %}">
+                    <h5>Sweatshirts</h5></a>
+                    <a href="{% url 'jeans' %}">
+                    <h5>Jeans & Jeggings</h5></a>
+                    <a href="{% url 'sets' %}">
+                    <h5>Sets</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'Casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'Festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'Formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'Party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'Evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'Work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'Wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'Vacation' %}">
+                    <h5>Vacations</h5></a>
+                    <a href="{% url 'Cocktail' %}">
+                    <h5>Cocktail</h5></a>
+                    <a href="{% url 'Ethnic' %}">
+                    <h5>Everyday Essential</h5></a>
+                    <br>
+                    
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'Solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'Printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'Floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'Stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'Checks' %}">
+                    <h5>Checks</h5></a>
+                    <a href="{% url 'Ruffled' %}">
+                    <h5>Ruffled</h5></a>
+                    <a href="{% url 'Embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'jumpsuits' %}">
+            <img src="{% static 'img/jumpsuit.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'jumpsuits' %}">
+               <p><b>Jumpsuits</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'sets' %}">
+            <img src="{% static 'img/twopiece.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'sets' %}">
+                <p><b>Sets( Two Piece dress)</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'dresses' %}">
+            <img src="{% static 'img/onepiece.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'dresses' %}">
+                <p><b>Dress(One Piece)</b></p>
+            </a>
+         </div>
+         
+
+    </div>
+</section>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'tops' %}">
+            <img src="{% static 'img/tops.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'tops' %}">
+                <p><b>Navy Blue Top</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'jackets' %}">
+            <img src="{% static 'img/jacket.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'jackets' %}">
+                <p><b>Jackets(Denim)</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'Skirts' %}">
+            <img src="{% static 'img/skrt.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'Skirts' %}">
+                <p><b>Skirts(Pencil Skirt With Top) </b></p>
+            </a>
+         </div>
+         
+
+    </div>
+</section>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'gowns' %}">
+            <img src="{% static 'img/gown.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'gowns' %}">
+                <p><b>Gowns</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'sweatshirts' %}">
+            <img src="{% static 'img/sweatshirt.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'sweatshirts' %}">
+                <p><b>Sweatshirts</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'cardigans' %}">
+            <img src="{% static 'img/sweater.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'cardigans' %}">
+                <p><b>Sweaters</b></p>
+            </a>
+         </div>
+         
+
+    </div>
+</section>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'jeans' %}">
+            <img src="{% static 'img/jeans.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'jeans' %}">
+                <p><b>Jeans(With Top)</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'Ruffled' %}">
+            <img src="{% static 'img/dresss.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'Ruffled' %}">
+                <p><b>Ruffled Top & Skirt</b></p>
+            </a>
+        </div>
+        <div id="highlight" class="col-md-3">
+            <a href="{% url 'sets' %}">
+            <img src="{% static 'img/crop.jpg' %}" alt="lights"> </a>
+            <a href="{% url 'sets' %}">
+                <p><b>Sets(Top & Skirt)</b></p>
+            </a>
+         </div>
+         
+
+    </div>
+</section>
+{% endblock %}

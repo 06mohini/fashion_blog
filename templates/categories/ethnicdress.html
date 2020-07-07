@@ -1,0 +1,286 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Printed Maxi Dress With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This maxi dress is a perfect combination of comfort and style.
+             Pair it with minimal accessories and heels to create a statement look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Mustard Cotton Printed Tiered Kurta Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Juniper mustard cotton gold foil printed tiered maxi
+             dress features a round neck, 3/4th sleeves, zari work, tie-up dori and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Embellished & Sequined<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Butta Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black printed maxi dress by Bunaai is crafted in cotton and features a round keyhole neck with button fastening detail, 
+            short sleeves, dori tie-up details at the back, soft gather details on the waistline and a regular fit</p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Mustard Cape Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Crafted in viscose rayon, this mustard yellow printed maxi dress from jaipur
+             kurti makes a statement addition to your summer wardrobe</p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type of work : Printed<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Cape With Yellow Draped Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a lemon yellow draped dress with an embroidered belt.
+            It is teamed with a baby pink embroidered cape in organza. </p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Silk<br>
+            Pattern : Embellished/Sequined<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off white Striped A-Line Dress with Belt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Add elegance to your collection with this maxi dress from Yufta.
+             Pair this dress with drop earrings, handbag and sandals to complete the look. </p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type of work : Embroidered<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Striped Drape Dress With Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Printed stripe drape dress paired with long sleeve jacket. Jacket sleeve is enhanced with sequins </p>
+        <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Type of work : Embellished & Sequined<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Front Slit Strappy Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Get evening ready in this navy strappy tunic. Features a front slit and a high low hem.</p> 
+        <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Silk<br>
+            Pattern : Printed<br>
+            Type of work : Printed<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Striped Dress With Inner </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A red viscose dress with red inner. 
+            Dress features tie closure on the front and check print all over.
+             The outer shell is made of cotton and inner shell has viscose making for added comfort.</p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type of work : Printed<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Printed Cold Shoulder Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Round neck navy blue printed dress, cold shoulder elbow sleeves,
+             key hole and button detailing, flared hem </p>
+            <h3 id="saree2">Product Details</h3>     
+
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Colored Half Sleeve And Boat Neck Georgette Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurti is adorned by gold print pattern on the front and the sleeves.
+             You can team it up with your black skirt or leggings to complete the look. Kurti only.</p> 
+            <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Printed<br>
+            Type of work : Zari<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/ethnic12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Checks Orange Midi Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This midi dress is a must-have to look ravishing for any festive occasions.
+             Pair it with hoop earrings and flats to complete the look.</p>
+            <h3 id="saree2">Product details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks<br>
+            Type of work : Embroidered<br>
+            
+             </p>
+</div>
+</div>
+{% endblock %}

@@ -1,0 +1,211 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Olive Ethnic Print Flared Rayon Slub Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This green gold printed flared maxi skirt from Jaipur Kurti has a zipper 
+            and drawstring closure and tassels detailing. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Nuhh Multi-Color Georgette Panel Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A Mela of colours put together, to UP your mood, in viscose georgette - flows 
+            like you do. Can be teamed with a turtle neck or a tee. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Zari
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Yellow Straight Kurta With Skirt And Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">It is a set of three, a long straight cut kurta, a contrasting blue skirt 
+            and dupatta matching to the skirt.  Kurta comes featuring gold metallic print all-over.
+             Dupatta and skirt are highlighted with gold print on the edges. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Printed Kurta With Skirt & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">It is a set of three, a front open kurta, lehenga and dupatta. 
+            Kurta features gorgeous detailing on the neckline extended to placket, cut on the front 
+            and metallic print all-over. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Printed<br>
+            Type of Work : Thread Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Printed Jacket With Drape Skirt </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Printed jacket hilighted with embroidery is paired with drape skirt to give
+             a look like a saree. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Floral<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Mughal Skirt Top Set </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pure white lehenga by Ambraee comes with a flowy off the shoulder blouse 
+            with a thin gota border, the lehenga has red floral detailing embroidered near the ends of 
+            it with the similar gota border at the end of the lehenga.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Gota
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Printed Lehenga With Top & Dupatta  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Biba Peach Printed Lehenga With Top & Dupatta which make your wardrobe more stylish</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Embroidered<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/skirts8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Short Tunic With Cowl Skirt & Dupatta   </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The tunic features a high neck, 3/4th sleeves, a scalloped hem and embroidery
+             detailing all over. This set comes with a matching cowl skirt featuring an asymmetric hem.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Zardozi
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

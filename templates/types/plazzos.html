@@ -1,0 +1,213 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Floral Printed Muslin Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pair these beige printed palazzos from Jaipur Kurti with a matching kurta,
+             minimal accessories and heels to complete your ravishing look for any occasion.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Printed<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Solid Palazzo With Attached Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make your festive outfit work double-duty with this pair of pink palazzo pants.
+             Featuring an attached asymmetric dupatta, the silhouette lets you work a sari look with
+              the comfort and ease of pants.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Floral Kurta With Palazzos & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">It is a set of three, an off white straight kurta featuring floral print all-over,
+             boat neck and high slit on either side, contrast sharara pants and dupatta matching to 
+             the pants with little bit of shimmer.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Floral<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blush Pink Red Dori Work Maxi Dress With Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Vibrant colors, elegant embroidery and comfortable fabric- this dress has a beautiful vibe
+             to it, that is so classy, sophisticated and swagger at the same time. Get this blush pink kurta with
+              red dori work in your wardrobe right away- also, the pattern is amazing! </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Cambric Printed Peplum Crop-Top With Palazzo </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The block printed top has a round neck, 3/4th sleeves and a regular fit.
+             The palazzos have an elasticated mid-waist rise, slit pockets and flared fit.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Printed Kurta With Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This kurta set comes with a kurta and a pair of palazzos. It is a must-have
+             for all festive events. Pair this set with gold jewelry and heels to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Harmonica Inner & Palazzo With Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Slay the look by wearing this kurta set. Pair it with accessories and heels to 
+            create a statement look for parties or a special event. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work :Block Print
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/plazzos8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Baby Pink Stripes Tara Tunic With Palazzo </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A beautiful overlap tunic dress. A bow tie detail on the side.
+             A flattering asymmetrical cut with pockets on the side. Wear it with our
+              culottes to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

@@ -1,0 +1,276 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+                                
+  
+  <br>
+  <section>
+      {% block introsection %}
+      <div class="container-fluid mx-auto">
+         <center><h1><b><i> Traditional Wear </i></b></h1></center><br><br>
+         <div class="row mx-auto">
+             <div class="col-md-3">
+                 <img src="{% static 'img/2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+             </div>
+             <div id="pic" class="col-md-6">
+                 <center><p><i>India is known for its diversity the all over the globe.
+                    Ethnic clothing is just one of the things that distinguish one part of India
+                    from the other. The traditional Indian attire has earned admirers from people from 
+                    all over to organizations like UNESCO. The craftsmanship with which artisans create 
+                    traditional dresses is really incredible. All forms of clothing are quite labor intensive 
+                    and require a lot of attention to detail. Many of these art forms are dying because the 
+                    cost of production is higher and few people can afford to pay the high cost of the dress. 
+                    This has forced the textile ministry to come up with ways to sustain these artisans and 
+                    preserve their talent and art. As every state in India is geographically different from 
+                    the other, this has given rise to varied kinds of dresses and styles.
+                  </i>
+                </p></center>
+             </div>
+             <div class="col-md-3">
+                <img src="{% static 'img/1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+             </div>
+             {% endblock %}
+         </div>
+          <div class="row mx-auto">
+              <div id="category" class="col-md-3">
+                    {% block sidebar %}
+                    <h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                    <a href="{% url 'blouse' %}">
+                    <h5>Blouse</h5></a>
+                    <a href="{% url 'kurtikurta' %}">
+                    <h5>Kurtis Kurtas & Tunics</h5></a>
+                    <a href="{% url 'lehenga' %}">
+                    <h5>lehengas</h5></a>
+                    <a href="{% url 'salwarsuit' %}">
+                    <h5>Salwar Suit</h5></a>
+                    <a href="{% url 'saree' %}">
+                    <h5>Sarees</h5></a>
+                    <a href="{% url 'dupattas' %}">
+                    <h5>Dupattas</h5></a>
+                    <a href="{% url 'ethnicdress' %}">
+                    <h5>Ethnic Dress</h5></a>
+                    <a href="{% url 'ethnicjackets' %}">
+                    <h5>Ethnic Jackets</h5></a>
+                    <a href="{% url 'bottoms' %}">
+                    <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+                    {% endblock %}
+              </div>
+              <div class="col-md-9  ">
+                     {% block mainbar %}
+                     
+                    <section class="pt-5 mx-auto">
+                        <div class=" row mx-auto">
+                            <div id="highlight" class="col-md-3">
+                                
+                               <img src="{% static 'img/croptop.jpg' %}" alt="lights">
+                               
+                               <p><b>Ethnic Dress(croptop skirt)</b></p>
+                               <a type="button" class="btn btn-outline-secondary btn-lg" href="{% url 'ethnicdress' %}">read more</a>
+                            </div>
+                            <div id="highlight" class="col-md-3 ">
+                                <a href="{% url 'salwarsuit' %}">
+                                <img src="{% static 'img/salwarsuit.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'salwarsuit' %}">
+                                   <p><b>Salwar Suit</b></p>
+                                </a>
+                            </div>
+                            <div id="highlight" class="col-md-3 ">
+                                <a href="{% url 'saree' %}">
+                                <img src="{% static 'img/saree.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'saree' %}">
+                                <p><b>Saree</b></p>
+                                </a>
+                              </div>
+                             
+                    
+                        </div>
+                    </section>
+                    <section class="pt-5 mx-auto">
+                        <div class=" row mx-auto">
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'kurtikurta' %}">
+                                <img src="{% static 'img/suit.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'kurtikurta' %}">
+                                   <p><b>Kurtas(with palazzo)</b></p>
+                                </a>
+                            </div>
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'salwarsuit' %}">
+                                <img src="{% static 'img/patialas.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'salwarsuit' %}">
+                                   <p><b>Salwar Suit(patiala)</b></p>
+                                </a>
+                            </div>
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'ethnicdress' %}">
+                                <img src="{% static 'img/ethnic.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'ethnicdress' %}">
+                                   <p><b>Ethnic Dress(layer kurta dhoti)</b></p>
+                                </a>
+                             </div>
+                             
+                    
+                        </div>
+                    </section>
+                    <section class="pt-5 mx-auto">
+                        <div class=" row mx-auto">
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'kurtikurta' %}">
+                                <img src="{% static 'img/kurti.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'kurtikurta' %}">
+                                   <p><b>Kurta set (with pant)</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'lehenga' %}">
+                                <img src="{% static 'img/dress2.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'lehenga' %}">
+                                   <p><b>Lehengas</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'plazzos' %}">
+                                <img src="{% static 'img/dress.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'plazzos' %}">
+                                   <p><b>Palazzo Dress</b></p>
+                                </a>
+                             </div>
+                        </div>     
+                     </section>
+                     <section class="pt-5 mx-auto">
+                        <div class=" row mx-auto">
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'dupattas' %}">
+                                <img src="{% static 'img/dup.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'dupattas' %}">
+                                   <p><b>Dupattas Style</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'ethnicjackets' %}">
+                                <img src="{% static 'img/jack.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'ethnicjackets' %}">
+                                 <p><b>Ethnic Jacket(with palazzo &kurta)</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'blouse' %}">
+                                <img src="{% static 'img/blo.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'blouse' %}">
+                                   <p><b>Blouse Style And Saree</b></p>
+                                </a>
+                             </div>
+                        </div>     
+                     </section>
+                     <section class="pt-5 mx-auto">
+                        <div class=" row mx-auto">
+                            <div id="highlight" class="col-md-3">
+                                <a href="{% url 'churidars' %}">
+                                <img src="{% static 'img/chu.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'churidars' %}">
+                                   <p><b>Churidar Salwar Kurti</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'dhotis' %}">
+                                <img src="{% static 'img/dhoti.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'dhotis' %}">
+                                   <p><b>Dhoti Style (with short kurta)</b></p>
+                                </a>
+                             </div>
+                             <div id="highlight" class="col-md-3">
+                                <a href="{% url 'shararas' %}">
+                                <img src="{% static 'img/sharara.jpg' %}" alt="lights"> </a>
+                                <a href="{% url 'shararas' %}">
+                                   <p><b>Sharara Type(with short kurta)</b></p>
+                                </a>
+                             </div>
+                        </div>     
+                     </section>
+                
+                    <section class="pt-5 mx-auto">
+                       <div class=" row mx-auto">
+                           <div id="highlight" class="col-md-3">
+                               <a href="{% url 'pants' %}">
+                               <img src="{% static 'img/pant.jpg' %}" alt="lights"> </a>
+                               <a href="{% url 'pants' %}">
+                                  <p><b>Pant Type(with straight kurta)</b></p>
+                               </a>
+                            </div>
+                            <div id="highlight" class="col-md-3">
+                               <a href="{% url 'skirts' %}">
+                               <img src="{% static 'img/ski.jpg' %}" alt="lights"> </a>
+                               <a href="{% url 'skirts' %}">
+                                  <p><b>Skirt Type(with top)</b></p>
+                               </a>
+                            </div>
+                            <div id="highlight" class="col-md-3">
+                               <a href="{% url 'leggings' %}">
+                               <img src="{% static 'img/leg.jpg' %}" alt="lights"> </a>
+                               <a href="{% url 'leggings' %}">
+                                  <p><b>Legging Type(with Kurta)</b></p>
+                               </a>
+                            </div>
+                       </div>     
+                    </section>
+                     {% endblock %}
+              </div>
+          </div>
+      </div>
+  </section>
+<br><br>
+  {% endblock %}

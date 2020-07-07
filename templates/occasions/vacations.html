@@ -1,0 +1,285 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+{% endblock %}
+{%  block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Green Basil Butterfly Bush Kaftan Dress With Bikini</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This basil green maxi kaftan by Masaba is crafted in crepe and features butterfly
+             bush prints, half sleeves, tassel closure, V-neck and comes with a bikini to match making 
+             it perfect for your next beach holiday or a pool party.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Occasion : Vacations<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Alaya By Stage3 Beige Wild Flower Print Farshi Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Our signature print farshi pants in cambric cotton fabric is all you need
+             to make a style statement while you conquer the day. Keep it casual and comfortable
+              with a coloured crop top and a pair of big hoop earrings.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Off White Floral Lehenga Set</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a stripe floral off- shoulder crop top and a similar skirt in chiffon base.
+             It comes with golden embroidered detailing on the waistband of skirt. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chiffon<br>
+            Pattern : Printed<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Off White Handwoven Tunic </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Regular-fit dip-hem shirt tunic
+            Features all over handwoven inlay "Wi-fi" motifs with asymmetric neckline
+            Specially embroidered piping on neck and sleeves </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Orange Print Flared Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Cotton printed flared dress with side zip and pocket. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type : Maxi
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Frances Short Cotton Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This blue short kurta is made out of linen and features hand block print, 
+            a boat neck with button details and short sleeves. It has a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Linen<br>
+            Pattern : Printed<br>
+            Type of work : Block Print
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Blue Agira Pleated Striped Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Draped tunic with pleats on the waist spreading out on top and the bottom giving 
+            it a sunburst effect of the stripes. Elastic at the waist giving a comfortable fit and
+             the sleeves gives an easy and chic look !!! Layer it with pants or wear it just as a dress!! </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Gokarna Leisure Pants with stylish top</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These blue pants are made out of cotton and have a relaxed fit. 
+            Style these pants with a short kurta and bellies. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Linen<br>
+            Pattern : Solid/Plain<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Purple Satin Kaftan</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a lilac kaftan in satin base with a tie-up belt
+             around the waist with pearl edging. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Satin<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Beads and Stones 
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Embroidered Triangle Maheshwar Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Regular-fit dip hem button-down shirt
+            Features all over embroidered triangle motifs, with handwoven border </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Geometric<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Leaf Maxi Dress With Jacket</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A set of 2pcs, includes a tri- layered blue leaf print flare jacket with front
+             dori teamed with a inner cotton A-line navy blue sleeveless maxi dress. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type : Maxi
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/vacations12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women's Sustainable Kala Cotton Black Relax Pants</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These black joggers from 3X9T are crafted in cotton and feature a mid rise waist
+             with elasticated band and slit pockets. The printed checks with thread embroidered details 
+             elevate the design. Wear it with this Black top. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks<br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

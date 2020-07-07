@@ -1,0 +1,256 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Tomato Red Kurta With Pant And Dupatta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Go back to the roots with colour as bright as tomato red, and Jaipuri handblock print dupatta.
+             Gain attention for all the good reasons at your next gathering in this piece.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type : Kurta Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Gold & Maroon Solid Straight Chanderi Kurta With Patiala Dupatta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This yellow kurta set is meant for the fashion-forward women</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Solid/Plain<br>
+            Type of work : Zari<br>
+            Type : Salwar Suit Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Kurta With Sharara & Dupatta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This kurta set is a must-have in your ethnic wear collection. The peach colour kurta with sharara and dupatta.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Gota work<br>
+            Type of work : Gota<br>
+            Type : Sharara type</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Printed Kurta With Palazzo & Dupatta  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Kurta comes featuring leaf print all-over, high slit on either side and embroidery on the yoke.
+             Pants comes with print all-over, elasticated waist and dori string.
+             The whole set is combined with a gorgeous floral print dupatta.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Thread work<br>
+            Type : Sharara type</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Asymmetrical Kurta And Salwar Set  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink kurta set by Fabnest is crafted in polyester and comes along with a pair of 
+            matching salwar pants. The kurta features a round keyhole neck, 3/4th sleeves, an asymmetrical 
+            hemline and a regular fit. 
+            The salwar pants feature a waistband, pleat details and a comfortable fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            Type of work : Gota<br>
+            Type : Salwar Suit Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Chiffon Tasselled Anarkali Suit </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white anarkali kurta and palazzo set from Ambraee is crafted in cotton. The kurta
+             features a V-neck,3/4th bell sleeves and side slits.The pants feature a mid rise waist and wide legs.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type : Anarkali Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Kurta & Pant With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurta features a round neck, short sleeves, a front buttons placket accented with dori 
+            tie-up details, soft gathers on the waistline, a front slit detail and a regular fit. 
+            The pants feature a mid-rise waist, wide legs and a regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+            Type : Salwar Suit Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Mala Kurta With Skirt & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurta features a round neck, short sleeves, with skirt and dupatta. 
+            The skirt feature a mid-rise waist and regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Cotton<br>
+            Pattern : Polka Dots<br>
+            Type of work : Gota<br>
+            Type : Fusion Style</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Mala Kurta With Skirt & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink leheriya Ghaghara kurti set by Aachho is crafted in chiffon & mulmul.
+             Featuring a gota handwork on set all over,
+             a round neckline, 3/4th sleeves, this suit set offers a comfortable fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Chiffon<br>
+            Pattern : Stripes<br>
+            Type : Gharara Style</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon & Off White Ethnic Motifs Cotton Kurta With Patiala & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This maroon printed kurta set from Jaipur Kurti comes with a kurta,
+             a pair of patiala pants and a matching dupatta. The kurta features a round neck and 3/4th sleeves.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Printed<br>
+            Type : Salwar Suit Set</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/suit11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Yellow Nathni Kurta & Leggings With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A solid yellow kurta with details of gota work, a printed dupatta and a white leggings and you are good to go.</p>
+        <h3 id="saree2">Product Details</h3>     
+          <p id="saree1">Material : Chanderi<br>
+            Pattern : Gota Work<br>
+            Type of work : Gota<br>
+            Type : Kurta Set</p>
+</div>
+</div><br><br>
+{% endblock %}

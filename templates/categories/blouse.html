@@ -1,0 +1,271 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <a href="{% static 'img/blouse1.jpg' % }" data-lightbox="gallary">
+        <img src="{% static 'img/blouse1.jpg' %}" class="img-responsive" alt="lights" style="width:100%"></a>
+        <p><b>Fuchsia Jacket Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This versatile fuschia top by Desi Weavess can be paired just as well with
+             your favourite pair of jeans as your sarees and your lehengas making it a multi-duty must-have! </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Embroidered Square Neck Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Amaze everyone with your brilliant fashion sense by wearing this crop top. 
+            Pair it with palazzos, heels and fine accessories to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Yellow Brocade Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This yellow saree blouse by Desi Weavess is crafted in brocade fabric and features a boat neck,
+             half sleeves, an open back accented with dori tie-up details, floral motifs all over and a regular fit</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Brocade<br>
+            Pattern : Floral<br>
+            Type of Work : Zari
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Embroidered Mesh Sleeves Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Elevate your look by wearing this crop top by Indya. Pair it with palazzos, 
+            heels and fine accessories to complete the look</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Floral Embroidered Choker Neck Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Indulge yourself in the blooming charm of summer with this ivory crop top. Featuring a front thread
+             and sequin floral embroidery and a chic choker neck, this top is the perfect day-occasion add-on</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Floral<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Foil Net Sleeved Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Add drama to your look with this crop top. Pair it with palazzos, 
+            heels and fine accessories to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Floral<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Gorg Sequinned Stitched Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black blouse by Kaanchi Nanggia is crafted in sequined fabric, stitched,
+             sleeveless and features a round neck, sequin embellishments all over and a regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Sequin<br>
+            Pattern : Embellished/Sequined<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Gathered Sleeve blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black blouse by trueBrowns is crafted in cotton and features a V neck,
+             gathered long sleeves, elasticated upper waist and zip for closure.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Neckline : V-neck<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Pure Banarasi Organza Sheer Sleeve Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This beige blouse by Tjori is crafted in organza and features a high collar neck,
+             long sheer sleeves, front buttons placket and a regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Organza<br>
+            Pattern : Solid/Plain<br>
+            Neckline Type : Mandarin Neck </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Taffeta Readymade Blouse With Cross Lace</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Perk up your style quotient with this plain taffeta blouse.
+             This blouse comes with layer golden lace and sleeveless.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Embroidered<br>
+            Type of work :Embroidered<br>
+            Neckline Type : Round Neck </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Padded Dupion Multi Head Embroidery Off Shoulder Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Just B dusty maroon off shoulder padded blouse with multi head embroidery overlap across the shoulder and back. 
+            Sweetheart Neck and gold piping on waist. It will accentuate every girl's figure.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Raw Silk<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+            Neckline Type : Off Shoulder </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/blouse12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Daisy Stitched Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a statement in this designer floral embroidery blouse
+             at a wedding event or festival celebration that you go to.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+            Neckline Type : Round neck </p>
+</div>
+</div><br><br>
+{% endblock %}

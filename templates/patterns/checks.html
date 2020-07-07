@@ -1,0 +1,243 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>The Ravishing Sky Blue Cotton Check Blouse With Slip</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This blue blouse by Tjori is a perfect option for those who always want to be on the
+             top of the style game. Team it with a flared skirt and heels to create a statement look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Taupe Off Shoulder Check Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Our range of chic tunics are a class apart and sure to make heads turn !!
+             Pair these with a pair of pants or lowers and you ready for the day. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Checks <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Yellow Checks Straight Yarn Dyed Rayon Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a stunning style statement with this yellow checkered kurta from Jaipur Kurti. 
+            Team this kurta with a pair of flared leg bottoms and block heels to complete the look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Checks <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Mustard Bridal Checks Art Silk Wedding Lehenga With Dupatta And Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">While the deep colours and extensive Zari add to the overall richness,
+             the modern cut makes it apt for a contemporary woman. Wear it with well-defined eyes
+              and minimal jewellery to bring out the best in you!  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Checks <br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Cotton Blue Embroidered Check A-Line Kurta With Sharara & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Blue Embroidered A-Line Kurta Sharara Dupatta Set, has Round Neck,
+             Three-Quarter Sleeves, Straight hem, has Side Slits  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Handloom Linen Check Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white pure linen saree by Bunkaar comes with an matching blouse.
+             The handloomed saree features a checks print, tassels at the hem and has a slender fit.   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Linen<br>
+            Pattern : Checks <br>
+            Type of Work : Tassels
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Checkered Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Multi-Color Checkered Dupatta. Style it with kurtas or kurtis.   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women's Sustainable Kala Cotton Black Relax Pants</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These black joggers from 3X9T are crafted in cotton and feature a mid rise waist
+             with elasticated band and slit pockets. The printed checks with thread embroidered details 
+             elevate the design.   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Checks Tier Dress With Jacket</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This flowy tier gown by Ambraee has a beautiful checks printed all over it. 
+            It comes with a short black jacket, that has long sleeves and has patchwork on the sleeves.
+            You can style this with big hoop earrings.    </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/checks10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Blue Check Jacket</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Silk blend checkered floral patterened jacket with lining inside.
+             The jacket has 2 side pockets. Style the jacket with jeans, dress or a kurta set. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Checks <br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

@@ -1,0 +1,247 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Gold Silk Solid Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This golden blouse by kaanchie nanggia is crafted in silk,
+             stitched and features a round neck, half sleeves, got a patti detailing and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Solid/Plain <br>
+            Type of Work : Gota
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women's Black Poly Crepe Solid Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black kurta by Janasya is crafted in crepe and features a mandarin neck,
+             roll-up sleeves and a zip detailing on the front. Team this kurta with leggings for a chic look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Solid/Plain <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Gota Solid Lehenga Set With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The blouse features a round neck, short sleeves accented with embroidery details,
+             an open back with dori tie-up fastening details and a regular fit. The lehenga features
+              a mid-rise waistband, a dori tie-up waist, gota patti details all over, a wide border
+               detail on hemline and a comfortable fit.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Gotapatti Cotton Solid Suit Kurta With Pant & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This peach gotapatti cotton suit set is crafted in cotton and comes attached with
+             a chiffon dupatta. Featuring a handwork gota on dupatta, round neckline, half sleeves, this
+              suit set offers a comfortable fit.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Solid Chiffon Saree</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This handwoven red saree is crafted in chiffon and features golden zari borders.
+            This piece is handmade with love and care by various artisans and therefore slight differences 
+            of design and colour may occur from piece-to-piece which allows for a signature 
+            one-of-a-kind aesthetic. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chiffon<br>
+            Pattern : Solid/Plain <br>
+            Type of Work : Zari
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Solid Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Looking for a cotton dupatta? Your search may end on this chic piece by biba. 
+            It's a cotton crafted piece with binded edges and crinkled body. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women White Rayon Solid Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white palazzo from Amaiva is crafted in viscose featuring two pockets.
+             You can pair this palazzo with a top or kurti and high heels or flats to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Solid/Plain <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Solid Cotton Camric Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pair these black solid pants from Jaipur Kurti with a matching top or tunic,
+             embellished accessories and heels to complete your ravishing look for any occasion.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain <br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Solid Indie Mickey Gown</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> It comes featuring embroidery on the front, v-neckline, flared sleeves and dori 
+            tie-up on the waist having mickey tassels.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/solid10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Teal Solid Woollen Front Open Shrug</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> Give your winter look a fashionable finish with this woolen shrug. 
+            It is a stylish piece with lapel collar. The touch and feel of this piece is very soft. 
+            It's a perfect winter staple to keep you warm and cozy this season.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Wool<br>
+            Pattern : Solid/Plain <br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

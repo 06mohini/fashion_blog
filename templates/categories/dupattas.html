@@ -1,0 +1,271 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+{% endblock %}
+{% block mainbar %}
+
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Kashmiri Motif Aari Embroidered Khadi Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black dupatta by Mesmora is crafted in khadi and features 
+            elegant acari embroidery details in repetitive motifs and tassel lace details on all four sides.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Khadi<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+             </p>
+</div>
+</div>
+
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Chanderi Cotton Dobby Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Juniper beige chanderi cotton dobby dupatta with fringed border goes best with a matching kurta set,
+             ethnic jewellery and heels for any traditional events or celebrations.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+             </p>
+</div>
+</div>
+
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Rani pink Color Woven Banarasi Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This beautifully designed rani pink colour banarsi dupatta features fancy tassels in pall.
+             Work, design and fabric of this dupatta gives an elegant and classy look to you.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Woven<br>
+            Pattern : Banarsi<br>
+            </p>
+</div>
+</div>
+
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Lyla Pink Chikankari Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink dupatta from Lyla is crafted in cotton and features mukesh and chikankari work allover</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chikankari<br>
+            Pattern : Solid/Plain<br>
+             </p>
+</div>
+</div>
+
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Printed Silk Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Banarasi dupion green silk dupatta in floral motifs weaved all over.
+             Pair this dupatta with a matching salwar suit set and wear it on festive occasions.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Banarsi<br>
+            Type of work : Embroidered<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Gota Work Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A classic mulmul dupatta in a range of colours, the gota dupatta is lined with parallel strips gota along its length.
+             Add this dupatta to any outfit to get the festive touch and elegant charm.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Plain<br>
+            Type of work : Gota<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Orange Phulkari Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The look is perked up with the peppy colours of magenta and orange 
+            with the traditional phulkari embroidered dupatta. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Velvet<br>
+            Pattern : Embellished & Sequined<br>
+            Type of work : Embellished & Sequined<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Cotton Sambalpuri Ikat Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This garment has been woven, in the interiors of India, on a handloom, by artisans,
+             using methods and designs passed over generations. Users may sometimes notice variation or inconsistency
+              in weaving, design or color combination. These are due to
+             the handcrafted nature of the garment and are not defects, but features, which makes each piece unique  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Embroidery<br>
+            Type of work : Ikat<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>The Weave Traveller Mustard Hand Blocked Kalamkari Cotton Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This mustard dupatta by The Weave Traveller is handcrafted in cotton and features kalamkari details all over  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Kalamkari<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Woven Linen Zari Dupattas With Pom Pom Edgings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Latest in the range of handloom products from the house of The Weave Traveller. We bring to you handloom 
+            linen dupattas with zari of border and on both pallus of the dupatta with pom pom edging </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Linen<br>
+            Pattern : Zari<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Solid Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Looking for a cotton dupatta? Your search may end on this chic piece by biba.
+             It's a cotton crafted piece with binded edges and crinkled body. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dupatta12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Net Solid Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Juniper black net solid dupatta features a zari lace border. 
+            Pair this dupatta with a traditional ghagra and top for the perfect festive occasion. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Net<br>
+            Pattern : Solid/Plain<br>
+             </p>
+</div>
+</div><br><br>
+{% endblock %}

@@ -1,0 +1,227 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Mirror Work Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This blue blouse is crafted in silk, stitched and features a round neck, 
+            short sleeves, mirror work all over, a round back and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Mirror Work High Slit Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Equal parts glitzy and muted, this ivory tunic is your answer to day occasion dressing.
+             Featuring subtle mirror work on the yoke and a flirtatious high-slit, this tunic brings 
+             just the right amount of glam to the table.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Mirror Embroidered Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This v neck peach embroidered straight kurta has three quarter sleeves and side slit.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Blended Fabric<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Anokherang Teal Mirror Embroidered Kurti With Palazzo And Sequenced Dupatta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Show them how to nail the single shade outfits with this bottle green mirror 
+            embroidered kurta with thread and mirror work all over the kurta and colourful floral 
+            embroidery on the hem, a pair of flared palazzos and a matching dupatta. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Beige Georgette Mirror Work Saree With Blouse </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This beige saree is crafted in georgette and features a mirror work detailing all over.
+            Pair this saree with heels and fine accessories to create a statement look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Red Rayon Embellished Sharara</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Women's red flared sharara is crafted in cotton and features an elasticated waistband,
+             drawstring closure and embroidery with mirror work on the border.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Peach Foil Mirror Maxi Dress With Belt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Foil mirror work adorned,Enhanced with cutdana work,Fabricated buttons,
+            Belt with foil mirror work and tassels  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Mirror Tie Dye Jacket</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a fashion statement with this jacket. Style it with a crop top, a skirt, 
+            subtle accessories and heels to complete the look  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/mirror9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Cotton Gota And Mirror Work Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This off-white dupatta by TL Designs is crafted in cotton and features elegant
+             mirror work details and gota work details all over. Style this dupatta with a traditional 
+             kurta set and high heels to make a statement  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Mirror Work <br>
+            Type of work : Mirror Work
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

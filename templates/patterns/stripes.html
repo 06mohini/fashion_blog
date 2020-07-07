@@ -1,0 +1,245 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Cotton Stripes Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white blouse  crafted in cotton and features a round neck, short sleeves,
+             golden striped details all over and a regular fit. Style this blouse with an ethnic saree 
+             and statement accessories to complete the look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Striped Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Biba Blue Striped Tunic. Features a round neck, short sleeves,
+            white striped details all over and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Bengal Striped Overlap Kurti</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Bengal Striped Prints All Over,Stylized with Overlapping Yoke,Triangle 
+            Sleeves with buttons,Contrast Floral Front Pocket </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Stripes <br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Royale Blue Leheriya Lehenga Set</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Royale blue full flared lehenga with turquoise blouse and blue dupatta embellished
+             with golden lace (ghera 8 mtr ) fabric of lehenga is chiffon and dupatta is in georgette  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material :Net<br>
+            Pattern : Stripes <br>
+            Type of Work : Leheriya
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multicolor Striped Straight Kurta With Sharara And Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Give your casual wardrobe and update with this sharara suit set by Biba.
+             It is a set of three, a straight cut kurta, sharara pants and solid dupatta.
+              Crafted in finest cotton, it assures you feel super comfortable while flaunting it. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material :Cotton<br>
+            Pattern : Stripes <br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Jacquard Lehariya Zari Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink jacquard saree is crafted in viscose and comes with an blouse piece which 
+            you can customize to your liking. Pair this saree with heels and fine accessories 
+            to create a statement look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Stripes <br>
+            Type of Work : Zari
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Striped Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Biba Black Striped Dupatta makes your wardrobe more stylish and pair it with 
+            a kurtas and leggings or pants or palazzos</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Olive Geometric Straight Stripes Cotton Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Give your wardrobe a much needed twist with this skirt. 
+            Pair it with a solid top and heels or strapped flats to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+            Type of Work : Tassels
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Striped Midi Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This dress by Aurelia reflects a perfect duo of comfort and style.
+             Style it with fine accessories and heels to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/stripes10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Tribal Striped Cotton Shrug</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a fashion statement with this jacket. Style it with a crop top, a skirt,
+             subtle accessories and heels to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes <br>
+           
+            </p>
+</div>
+</div><br><br>
+
+{% endblock %}

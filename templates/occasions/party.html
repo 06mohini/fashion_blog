@@ -1,0 +1,292 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{%  block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Red Solid Kurta With Palazzo & Dupatta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">For those who love high slit outfits, this set is love! It is a set of three,
+             which includes a printed kurta featuring boat neck and high slits on either side. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type : Kurta Sets<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Printed Jacket Set</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black crop top, pants and jacket set by Rivaaj is crafted in cotton.
+             The sleeveless black crop top features a V-neck, back zip closure and a regular fit. 
+             The printed pants feature a mid rise waist and wide legs. 
+             The printed jacket features 3/4th sleeves and gathered details </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Printed<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Inddus Red Silk Blend Embroidered Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This red saree by Inddus is crafted in silk and features an embellished border.
+             This saree comes with an unstitched blouse piece which you can customize to your liking. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Embellished/Sequined<br>
+            Type of work : Embellished & Sequined<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Inddus Purple Silk Blend Solid Pleated Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This purple saree by Inddus is crafted in net and features a 
+            pleated detailing all over. This saree comes with an blouse piece which you can
+             customize to your liking </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Net<br>
+            Pattern : Pleated<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> White Printed Front Open Blouse with Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make your wardrobe ready for Durga Puja by adding this white shimmery blouse to
+             your ethnic wear collection. It comes featuring open front with hook clasp and gold metallic
+              print highlighted with red thread and faux mirror</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Floral<br>
+            Type of Work : Printed
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Beige Floral Kurta With Churidar & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> It is set of three, an Anarkali kurta, churidar and dupatta. Kurta comes
+             featuring big floral print in beautiful colors and a broad yellow Patti. Dupatta comes
+              in exact match to the kurta and churidar comes in solid texture. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Modal<br>
+            Pattern : Floral<br>
+            Type of Work : Block Print
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Yellow Floral Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> A gorgeous dress in yellow from our latest launch.
+             It comes featuring print all over and flared bodice. 
+             This is a cotton crafted dress featuring cotton lining, which makes it
+              extremely comfortable to flaunt whole day long. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            Type of Work : Printed
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Navy Blue Kurta With Sharara & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> This kurta set is a must-have in your ethnic wear collection.
+             Pair it with minimal accessories and juttis to create a statement look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Gota Work<br>
+            Type of Work : Gota
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Light Purple Printed Kurta With Dhoti Pants And Scarf</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> Light purple short kurta cotton suit set </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            Type of Work : Embellished & Sequined
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Red Printed Blouse With Lehenga & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> It is a set of three, a short embroidered lehenga, gold metallic print blouse
+             and matching net dupatta. The neckline and sleeves' hem of the blouse are accentuated with
+              floral embroidery and sitara work </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Printed<br>
+            Type of Work :  Embroidered
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Turquoise Printed Kurta With Inner </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> Biba Turquoise Printed Kurta With Inner in a tier style which make you more gorgeous
+            in your styling </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/party12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Maroon Printed Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1"> Biba Maroon Printed Tunic which can be pair with legging or pants with cool black
+            colour . This make your wardrobe more classy and stylish.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Printed<br>
+            
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

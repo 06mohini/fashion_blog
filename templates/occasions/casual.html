@@ -1,0 +1,245 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Handblock Cotton Suit Kurta With Pant & Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pantone indigo hand block cotton suit set by Aachho is crafted in cotton and 
+            comes attached with a chanderi dupatta. Featuring a handwork gota on set, round neckline,
+             half sleeves, this suit set offers a comfortable fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type : Anarkali Sets</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Floral Printed Off Shoulder Maxi Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Get noticed everywhere you go with this dress. 
+            Pair it with minimal accessories and heels to create a statement look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            Type of work : Printed<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Floral White Printed Shrug</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Add this shrug to your ethnic wear collection. Wear this shrug over a
+             crop top and pair it with matching palazzos, hoop earrings and heels to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Floral<br>
+            Type of work : Block Print<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Printed Beige Flared Skirt With Top</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This top and skirt set comes with a crop top and a maxi skirt.
+             It is a must-have for a fusion look at any festive events.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Cinderella Kurta With Palazzo</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white kurta set is meant for those who never compromise on the style aspect.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+            Type : Anarkali Sets<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Lily Love Pure Cotton Hand Printed Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">You’re as young as ever endowed with a fresh youthful spirit just like this ‘Lily Love’ dress which makes you feel so everytime you look at and wear it. This cotton hand-block printed summer
+             dress is an endearing take on a beige colour clothing with refreshing pink flower prints.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            Type of work : Printed<br>
+            Type : Midi<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Chikankari Saree </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Baby pink chikankari saree with tassel lace and white silk blouse  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Rayon Slub Solid Asymmetric Kurta </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Grace any traditional event in style with this Juniper mint rayon
+             slub solid asymmetric kurta with tie-up dori. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Solid/Plain<br>
+            Type of work : Tassels<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Tie & Dyed Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Floral Zari Embroidered Yoke,Tie-Up Neckline with Dori & Tassels,Contrast Tie & Dye Prints All Over,
+            Foil Diamond Checkered Attached Jacket,Elegant Gathered Waistline </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Tie & Dye<br>
+            Type of work : Embroidered<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casual10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Turquoise Cotton Printed Tiered Kurta Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Juniper turquoise cotton gold foil printed tiered maxi
+             dress features a round neck, 3/4th sleeves, zari work, tie-up dori and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Embellished & Sequined<br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

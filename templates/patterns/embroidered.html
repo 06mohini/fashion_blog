@@ -1,0 +1,247 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Sequin Embroidered Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Brighten up your simple, solid bottoms by pairing them with this navy embroidered
+             crop top. Featuring all-over floral thread and sequin embroidery, this top a festive closet
+              must-have!  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Solid Straight Cotton Embroidered Slub Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a stunning style statement with this elegant beige embroidered tunic from 
+            Jaipur Kurti. Team this tunic with a pair of skinny bottoms or flared trousers and block 
+            heels to complete the look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Cotton Green Embroidered Straight Casual Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pair this green embroidered straight kurta with a matching pants,
+             drop earrings and heels for a festive event or in the office.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Embroidery Chanderi Lehenga With Pink Raw Silk Blouse And Printed Organza Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Red chanderi lehenga set from Amrita Thakur's Spring-Summer '18 collection has
+             an embroidered chanderi lehenga completed with baby pink raw silk blouse and printed 
+             organza dupatta for maximum stylish appeal. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Poly Georgette Navy Blue Embroidered A-Line Kurta Palazzo Dupatta Set</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This navy blue kurta, palazzo pants and dupatta set by Ishin is crafted in georgette.
+             The kurta features a V neck, long sleeves and embroidery detailing.
+              The palazzo pants feature an elasticated waist </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Georgette Embroidered Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Monjolika fashion presents pink color georgette saree with embroidered and zari 
+            work and thread work saree. Comes with matching coffee dhupion silk blouse. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Tribal Motif Aari Embroidered Khadi Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This red dupatta by Mesmora is crafted in khadi and features elegant acari embroidery
+             details in repetitive motifs and tassel lace details on all four sides. Style this dupatta with
+              a pared-back kurta set and statement accessories to attain an elegant ethnic look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Khadi<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Khaki Culotte Embroidered Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These khaki culotte pants by Mati are crafted in khadi cotton and feature a high 
+            waist with zip and button details, embroidered details, slant pockets and regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Khadi<br>
+            Pattern : Embroidered <br>
+            Type of Work : Embroidered
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Georgette Embroidered Tiered Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Maroon Georgette Embroidered Tiered Dress with Poly Crepe Lining & Dori. 
+            It is the perfect dress for festive occasions.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Embroidered <br>
+            Type of Work : Tassels
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/embroidered10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Azmat Jacquard Shawl Collar Embroidered Shrug</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This jacquard shawl collar shrug from Desi Weavess is crafted in soft chanderi
+             fabric making it very elegant. It is decorated with breathtaking embroidery to enhance the
+              look. It is the perfect shrug for festive occasions.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Embroidered <br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

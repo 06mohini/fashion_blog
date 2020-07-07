@@ -1,0 +1,66 @@
+<!-- footer -->
+<div class="footer">
+    <div class="footer-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 text-white text-justify">
+                    <h2 class="text-center"> 
+                        About Us
+                    </h2>
+                    <p class="text-center ">
+                        Styling is that place where you get the latest fashion brand. You will definitely enjoy
+                        this site. Styling is fully enthusiastic stylist team that create brand total new look
+                        for you. We are fully trustworthy. 
+                    </p><br><br>
+                    <div class="contact">
+                        <i class="fas fa-phone"></i> &nbsp; 123-456-789<br>
+                        <i class="far fa-envelope"></i> &nbsp; info@mohinivarshney06.com
+                    </div>
+                    
+                    <div class="socials">
+                        <span style="font-size: 3em; "></span>
+                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-facebook "></i></a>
+                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-instagram  "></i></a>
+                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-twitter  "></i></a>
+                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-youtube  "></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-white" >
+                    
+                    <h2 class="text-center">
+                       Quick Links
+                    </h2>
+                    <br>
+                    
+                    <ul id="quick_links" >
+                        <li class="nav-item"><a class="nav-link text-white" href="{% url 'index' %}">home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="{% url 'about' %}">about us </a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="{% url 'blog' %}">blog </a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="{% url 'tandc' %}">Terms and condition</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-sm-4 text-white">
+                    <h2 class="text-center">
+                        Contact Us
+                    </h2>
+                    <br>
+                    <form action="_footer.html" method="post" id="contact_us">
+                        <div class="form-group">
+                        <input type="email" name="email" class="text-input contact-input form-control" placeholder="your email address....">
+                    </div>
+                        <textarea name="message" class="text-input contact-input form-control" placeholder="your message....."></textarea><br>
+                        <button type="submit" class="btn btn-big">
+                            <i class="fas fa-envelope"></i>
+                            send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+     Copyright &copy; 
+    <a href="{% url 'index' %}"> Styling</a>
+   </div>
+</div>

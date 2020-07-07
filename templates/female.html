@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+                                
+  
+  <Section>
+  <div id="book" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'img/Indianwear.jpg' %}" alt="female">
+
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/SalwarStore.jpg' %}" alt="female">
+        
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/BridalStore.jpg' %}" alt="female">
+        
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+  </section>
+<section class="pt-5 max-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="indian" class="col-md-6 text-justify">
+            <a href="{% url 'indianwear' %}">
+            <img src="{% static 'img/traditional.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+            <div class="middle">
+                <div class="text">
+                  <b>Traditional</b>
+                </div>
+              </div>
+            <p style="font-family: 'Times New Roman', Times, serif; font-size:45px; margin-left: 200px;">
+                Traditional Wear
+            </p>
+            </a>
+        </div>
+        <div id="western" class="col-md-6 text-justify">
+            <a href="{% url 'westernwear' %}">
+            <img src="{% static 'img/western3.jpg' %}" alt="lights" style="width:100%">
+            <p style="font-family: 'Times New Roman', Times, serif; font-size:45px; margin-left: 150px;">
+                Western Wear
+            </p>
+            </a>
+        </div>
+     </div>   
+</section><br>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/croptop.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/salwarsuit.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/saree.jpg' %}" alt="lights"> 
+         </div>
+         <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/dress2.jpg' %}" alt="lights"> 
+         </div>
+
+    </div>
+</section>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/suit.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/patialas.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/ethnic.jpg' %}" alt="lights"> 
+         </div>
+         <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/kurti.jpg' %}" alt="lights"> 
+         </div>
+
+    </div>
+</section>
+<section class="pt-5 mx-auto">
+    <div class=" container-fluid row mx-auto">
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/jumpsuit.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+           <img src="{% static 'img/twopiece.jpg' %}" alt="lights"> 
+        </div>
+        <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/onepiece.jpg' %}" alt="lights"> 
+         </div>
+         <div id="highlight" class="col-md-3">
+            <img src="{% static 'img/kurti.jpg' %}" alt="lights"> 
+         </div>
+
+    </div>
+</section>
+
+  {% endblock %}
+  

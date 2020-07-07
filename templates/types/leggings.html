@@ -1,0 +1,215 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                   
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women's Black Seamless Leggings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This C9 Airwear Legging which is designed for women, who are always on the move,
+             to enter the world of seamless experience with bottoms which are high on comfort, fit,
+              quality and style quotient.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Kaneeray Anarkali Kurta & Leggings With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white kurta set by Keva includes a kurta with cotton patchwork,
+             a pair of leggings, and a dupatta. Pair it with cute juttis and statement earrings 
+             for a complete look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton Lurex<br>
+            Pattern : Stripes<br>
+            Type of Work : Patch
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Angarakha Kurta With Legging</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurta features a V neck, 3/4th sleeves and a printed detailing.
+             Pair this kurta and leggings set with heels and fine accessories to complete the look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Printed<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Band Collar Flare Sleeve Long Solid Embroidered Kurta With Legging</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This navy blue kurta set by Ritu Kumar is crafted in a blend of cotton,
+             viscose and georgette. The kurta features a mandarin neck, long flared sleeves and
+              an embroidery detailing.   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Embroidered<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Anokherang Celeste Blue Kurti With Leggings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Ruffles Ruffles....and that's what we have got to you layers of ruffles in 
+            anokherang style....in a color that flatters any woman who wears it...Celeste....the 
+            embroidered sequence pattern in the middle panel adding the twinkle to this attire...a 
+            Kurti with layers giving you the perfect formal look....matched with a Celeste Churidaar....   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Printed<br>
+            Type of Work : Printed
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Solid Cotton Lycra Leggings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a mid-rise waist and an elasticated waistband, these red leggings
+             by Jaipur Kurtis make an elegant pick to team with your traditional attires.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women Navy Blue Solid Straight Cotton Lycra Leggings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These navy blue leggings are a must-have in your collection. 
+            Pair them with a kurta and strapped flats to complete the look</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/leggings8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Yellow Pitambri Kurta & Leggings With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This is a chanderi kurta with details of gota work along with an embroidered dupatta.
+             It is comfortable and easy to pair with, its simple, refreshing and classy look. 
+             This is a combo of all three products</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Checks<br>
+            Type of Work : Gota
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

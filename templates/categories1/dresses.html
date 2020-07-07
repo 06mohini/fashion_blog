@@ -1,0 +1,240 @@
+{% extends "femalewears/westernwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block Sidebar %}
+<h3><b><i>Western  Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                    <a href="{% url 'dresses' %}">
+                    <h5>Dresses</h5></a>
+                    <a href="{% url 'tops' %}">
+                    <h5>Tops</h5></a>
+                    <a href="{% url 'cardigans' %}">
+                    <h5>Cardigans & Sweaters</h5></a>
+                    <a href="{% url 'gowns' %}">
+                    <h5>Gowns</h5></a>
+                    <a href="{% url 'jackets' %}">
+                    <h5>Jackets & Coats</h5></a>
+                    <a href="{% url 'jumpsuits' %}">
+                    <h5>Jumpsuits</h5></a>
+                    <a href="{% url 'Skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'sweatshirts' %}">
+                    <h5>Sweatshirts</h5></a>
+                    <a href="{% url 'jeans' %}">
+                    <h5>Jeans & Jeggings</h5></a>
+                    <a href="{% url 'sets' %}">
+                    <h5>Sets</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'Casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'Festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'Formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'Party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'Evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'Work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'Wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'Vacation' %}">
+                    <h5>Vacations</h5></a>
+                    <a href="{% url 'Cocktail' %}">
+                    <h5>Cocktail</h5></a>
+                    <a href="{% url 'Ethnic' %}">
+                    <h5>Everyday Essential</h5></a>
+                    <br>
+                    
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'Solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'Printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'Floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'Stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'Checks' %}">
+                    <h5>Checks</h5></a>
+                    <a href="{% url 'Ruffled' %}">
+                    <h5>Ruffled</h5></a>
+                    <a href="{% url 'Embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black High On Trend Polka Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Black polka dot printed polyester georgette midi dress. Fit and flare silhouette. 
+            Ruching at center front yoke for style and a concealed zipper on the left for fastening. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Polka Dots<br>
+            Type : Midi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multicolor Geometric Print Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This multicolor geometric print dress  is crafted in cotton and features a high neck,
+             balloon sleeves, maxi length and a comfortable fit. Style this dress with a pair of sneakers 
+             to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Geometric<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Edging Towards Style Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Maroon polyester knit dress. One shoulder neckline. Fit and flare silhouette. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Knitted<br>
+            Pattern : Solid/Plain<br>
+            Type : Mini</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Show Me Off Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A maroon kniited dress having a fit and flare silhouette along with net detailing 
+            at the neck yoke and waist for style. It is short sleeved with back button 
+            for fastening and ease. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            Type : Mini</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Baby Pink Stripes Cape Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A stylish cape dress is a sure statement this summer. A free size dress 
+            can be a chic and comfortable choice for your day outings.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type : Knee length</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Ruffle Me Crazy Midi Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Crafted in polyester crepe with a polyester knit lining, this twirl-friendly midi
+             dress transitions smoothly from brunch to bar. It features ruffles, a v-neckline,
+              adjustable shoulder straps, an empire cut waist and a concealed zipper at the back.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            Type : Midi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Olive Eternity In Floral Maxi Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Olive floral printed rayon maxi dress. Fit and flare silhouette.
+             Layered flap with centre front buttons all the way to the hem. Adjustable shoulder
+              straps for ease. Cute and casual this dress will take you from a brunch look to date 
+              night look with just a bit of effort!</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Floral<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Cape Wrap Maxi Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Crafted in polyester, this red dress features a V-neck, short cape sleeves,
+             a wrap style bodice, side tie-up detail and a regular fit.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Elodie Ruffled One Shoulder Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">In vibrant green paisley jacquard fabric, this ruffled, asymmetric midi dress
+             is finished with a statement one-shoulder detail. Complete the event-ready outfit with
+              all-white accessories.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Ruffled<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Maxi Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This blue sleeveless tiered maxi dress by AND is crafted in polyester and
+             features a V-neck and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            Type : Maxi</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/dress12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Giraffe Pop Off Shoulder Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pair the pink giraffe pop off shoulder crepe dress with golden hoops to ace the holiday look! </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Type : Mini</p>
+</div>
+</div>
+{% endblock %}

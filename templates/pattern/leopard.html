@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+  <section>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'img/animalprint.jpg' %}" alt="Blog">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/animalprint.jpg' %}" alt="Blog">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'img/animalprint.jpg' %}" alt="Blog">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+  </section><br><br>
+  <center>  <h1><b><i>How To Wear Leopard Print This Fall </i></b></h1></center>
+  <br><br>
+  <div class="row mx-auto">
+      <div id="code" class="col-md-6 text-justify">
+          <div class="thumbnail ">
+              
+              <p>Trends come and go (and come and go), but there are some things that never go out of style. 
+                They may be more popular one season than another but, on the whole, 
+                they are forever pieces that form the cornerstones of our wardrobes.
+                And this season, amid all the ideas that will have their five minutes of fame,
+                we saw the return of the leopard-print coat.
+                It’s a piece your mother and grandmother probably wore before you, 
+                and yet it still feels relevant. If you buy one now, I bet you’ll be wearing it for years to come 
+                (and maybe your child will nick it from you, too).
+            </p>
+          </div>  
+        </div> 
+
+   <div id="type" class="col-md-6 text-justify">
+       <div class="thumbnail">
+           <img src="{% static 'img/skirt.jpg' %}" alt="lights">
+        </div>
+    </div>
+ </div>   
+ <br>
+ <div class="row mx-auto">
+     <div id="count" class="col-md-6 text-justify">
+         <div class="thumbnail">
+            <img src="{% static 'img/sandal.jpg' %}" alt="lights">
+         </div>
+     </div>
+     <div id="code" class="col-md-6 text-justify">
+         <div class="thumbnail">
+             <p>
+                Animal prints have long been a wardrobe staple for stylish women,but the trend is in full force
+                 for fall. The leopard slip midi skirt may have reigned supreme for two summers in a row, 
+                 but that was only the beginning of what we're calling the Great Animal Print Revival.
+                  From luxe leopard to snake print overload and newcomers including cow and tiger, 
+                  there are endless options to take your look to the wild side this fall. 
+                  Whether you're on the prowl for a leopard jacket or a cool pair of snake print boots,
+                 click through to shop the best pieces for fall.
+             </p>
+         </div>
+     </div>
+ </div>  
+ <br><br>
+ <div class="row mx-auto">
+     <div id="code" class="col-md-6 text-justify">
+          <div class="thumbnail">
+         
+         <p>Animal print continues its reign of the fashion jungle this fall,
+              and from the looks that dominated runway resort shows, it seems certain to continue trending for 
+              some time to come.
+
+            The nature-inspired look has made its way into fashion as far back as the 18th century.
+            At its start, it became popular because of its potential for giving those who wear it a sense of
+             power and an elevated status of wealth and luxury. It saw a rise in popularity in the US during 
+             the turbulent 1960s and garnered larger prominence in '70s and '80s fashion as it took over 
+             dresses, leggings, and various accessories amidst a growing preference for a bolder style.
+            
+         
+       </p>
+     </div>  
+   </div> 
+
+<div id="take" class="col-md-6 text-justify">
+  <div class="thumbnail">
+      <img src="{% static 'img/bag.jpg' %}" alt="lights" >
+   </div>
+</div>
+</div>   
+ <br><br>
+ 
+  
+  {% endblock %}

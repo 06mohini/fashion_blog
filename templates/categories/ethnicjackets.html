@@ -1,0 +1,273 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Striped Straight South Cotton Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Flaunt your chic style with this elegant beige striped shrug from Jaipur Kurti. 
+            Team this shrug with your traditional as well as casual attires to make a statement.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Mirror Tie Dye Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a fashion statement with this jacket. 
+            Style it with a crop top, a skirt, subtle accessories and heels to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Mirror Work<br>
+            Type of work : Mirror Work
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Solid Long Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Amplify your fusion wear with the addition of this maroon long shrug. Features an
+             embroidered band down the front and shaped shoulders that add a little structure to the wispy flows.</p> 
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern :Solid/Plain<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Beige Solid Woollen Front Open Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Give your winter look a fashionable finish with this woolen shrug. 
+            It is a stylish piece with lapel collar. The touch and feel of this piece is very soft. 
+            It's a perfect winter staple to keep you warm and cozy this season.</p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Wool<br>
+            Pattern : Solid/Plain<br>
+            
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Embellished Mesh Cape Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black long sheer cape by Indya is 
+            crafted in nylon and features a neck with button closure and sequin embellishments all over.</p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Nylon<br>
+            Pattern : Embellished/Sequined<br>
+            Type of work : Embellished & Sequined<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Cotton Baswada Peplum Top With Jacket Set  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pairing a cotton silk top with Banaras zari infused baswada jacket, 
+            enables the wearer of this top stand out amongst a crowd.</p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Printed<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Hand Block Printed Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This is a white coloured Rayon Summer shrug in asymmetrical pattern. 
+            This Hand block printed shrug comes with a multicolour motifs for a casual and relax fit. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print<br>
+             </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Georgette Longline Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This navy blue maxi jacket by Indya
+             is crafted in polyester and features 3/4th sleeves, floral motifs all over and a regular fit. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Ethnic Motifs Straight Rayon Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pink shrug is a must-have in your collection.
+             Pair it with a kurta and flared palazzos to nail the look. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Fida Cotton Ikat Long Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A classic off white and grey cotton Ikat dress that can be worn as a jacket or dress.
+             Complete with pockets for your essentials and subtle hand embroidered mirrors, 
+             this design is versatile and timeless. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Round Neck Long Sleeves Embroidered Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This charcoal jacket by Label Ritu Kumar is crafted in viscose and crepe, 
+            semi-fitted and features an open front, long sleeves, mirror work and embroidery detailing all over. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Embroidered<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/jac12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Wrap Shrug </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The vibrant colour of this tie up shrug is one of its attention capturing features. 
+            The wrap silhouette can be adjusted to achieve the desired fit. The soothing handloom linen fabric
+             feels soft on the skin. Plus size is also available. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Linen<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

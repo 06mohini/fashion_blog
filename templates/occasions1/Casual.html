@@ -1,0 +1,269 @@
+{% extends "femalewears/westernwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block Sidebar %}
+<h3><b><i>Western  Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                    <a href="{% url 'dresses' %}">
+                    <h5>Dresses</h5></a>
+                    <a href="{% url 'tops' %}">
+                    <h5>Tops</h5></a>
+                    <a href="{% url 'cardigans' %}">
+                    <h5>Cardigans & Sweaters</h5></a>
+                    <a href="{% url 'gowns' %}">
+                    <h5>Gowns</h5></a>
+                    <a href="{% url 'jackets' %}">
+                    <h5>Jackets & Coats</h5></a>
+                    <a href="{% url 'jumpsuits' %}">
+                    <h5>Jumpsuits</h5></a>
+                    <a href="{% url 'Skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'sweatshirts' %}">
+                    <h5>Sweatshirts</h5></a>
+                    <a href="{% url 'jeans' %}">
+                    <h5>Jeans & Jeggings</h5></a>
+                    <a href="{% url 'sets' %}">
+                    <h5>Sets</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'Casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'Festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'Formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'Party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'Evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'Work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'Wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'Vacation' %}">
+                    <h5>Vacations</h5></a>
+                    <a href="{% url 'Cocktail' %}">
+                    <h5>Cocktail</h5></a>
+                    <a href="{% url 'Ethnic' %}">
+                    <h5>Everyday Essential</h5></a>
+                    <br>
+                    
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'Solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'Printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'Floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'Stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'Checks' %}">
+                    <h5>Checks</h5></a>
+                    <a href="{% url 'Ruffled' %}">
+                    <h5>Ruffled</h5></a>
+                    <a href="{% url 'Embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Cool Classic Revival Polka Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Navy Blue Polka Rayon Midi Dress. Wrap style silhouette. Ruffled short sleeves with
+             Tiered hem. Tie-up waist belt for ease & style. Smocking at the back. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Polka Dots<br>
+            Type : Midi
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Olive Bringing Out The Edgy Style Playsuit </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Olive green polyester crepe playsuit. Overlapping wrap style neckline with gathers and 
+            collar. Straight legged bottoms. Concealed back zipper. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Solid/Plain<br>
+            Type : Playsuit
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Wine Maroon Solid A-Line Viscose Top </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a stunning style statement with this elegant maroon top from Jaipur Kurti. 
+            Team this top with a pair of boyfriend denims and block heels to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Solid/Plain<br>
+            Type : Tops
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Metallic Logo Zip Hoodie </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">GAP's cosy sweatshirt is knitted with black threads to create a unique pattern. 
+            It is cut for a loose fit and features drawcords at hoodie neckline, metallic embellishment
+             at chest, long sleeves and a rib knit banded hemline. Wear yours over a tank when the 
+             temperature drops. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Take Me Up A Notch Gown </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Blue polyester georgette maxi dress. Polyester knit lining inside for comfort.
+             Adjustable shoulder straps with a v neckline. Buttons at centre back for style. 
+             Concealed zipper on the left. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Solid/Plain<br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Maroon Slit On My Mind Co-ordinates </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Maroon polka printed polyester moss crepe skirt co-ord set. Crop top with adjustable 
+            straps and smocking detailing at the back. A line midi skirt with thigh high slit.
+             Fabric buttons above the slit for style. Side zip closure on the skirt. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Polka Dots<br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Indowestern Black Shirt With Skirt Set </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The indowestern combo includes a flared embroidery like printed skirt with a solid 
+            shirt having flared layered sleeves. This indowestern trend of shirt and skirt is here to stay.
+             This looks best when the shirt is tucked in. This 2 piece ready to wear set is a perfect
+              party wear pick. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Solid/Plain<br>
+           
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Stripes Got It All Going Jumpsuit </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Cotton voile lining inside for comfort. Shoulder straps with ruffle detailing 
+            extending to the waistline. Concealed zipper on the centre back for fastening and ease.
+             Pockets on both sides of the waist in the front.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type : Jumpsuits
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Stripe Swing Knee Length Dress </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Made from 100% Cotton - Round Neck - Short Raglan Sleeves - A- Line -
+             Side Inseam Pockets - Relaxed Fit - Knee Length - Machine Wash - Smart Casual Wear  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type : Knee length
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Logo Printed Short Sleeves Top </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This elegant white t-shirt by GAP is crafted in cotton and is a must-have in your
+             casual collection. Style this t-shirt with a pair of boyfriend denims and your regular 
+             sneakers to complete the look.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type : Tops
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Grey No Rule No Boundary Hooded Top </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A CROPPED GREY DENIM HOODED TOP WITH FRONT FLAP POCKET AND NEON STITCH DRAWSTRING  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Denim<br>
+            Pattern : Solid/Plain<br>
+            Type : Hoodies 
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/casuals12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Downtown AOP Dress -White </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">:Oversize is in, so wrap yourself in the edgy-but-cute silhouette of our Downtown All-Over Print Dress.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Floral<br>
+            Type : Mini 
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

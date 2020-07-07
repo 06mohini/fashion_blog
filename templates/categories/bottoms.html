@@ -1,0 +1,320 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a><br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women Maroon Rayon Dobby Solid Palazzo </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This maroon palazzo from Amaiva is crafted in viscose featuring two pockets.
+             You can pair this palazzo with a top or kurti and high heels or flats to complete the look. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Casual Wear Beige Long Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This long skirt is a must-have. Pair this with a casual top, minimal 
+            accessories and heels to complete the look. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Purple Solid Straight Cotton Cambric Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Slay the look by wearing these purple pants.
+             Pair them with a kurta, a cami top or a tunic and heels to complete the look </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Cotton Printed Dhoti Pants</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These printed dhoti pants from Kaanchie Nanggia are crafted in cotton. Styled in tapered look,
+             these dhoti pants can be paired with any kurta or tunic to create that go-to look </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of Work : Block Print
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Leggings</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These leggings are the perfect blend of style and comfort. 
+            Offering you the desired fit, these leggings will make you feel at ease all day. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Cotton Flex Embellished Hakoba Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These Juniper black cotton flex solid wide-leg hakoba pants have schiffli hem, 
+            side pockets, straight fit, mid-waist rise and secured with button fly and zip closure.  </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Solid Cotton Silk Pathaani Salwar</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Abhishti Solid Cotton Silk Pathaani Salwar  </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton Silk<br>
+            Pattern : Solid/Plain<br>
+            Occasion : Casual
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Turquoise Cotton Stripes Straight Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These Juniper mint cotton printed straight pants with side pocket go best with a matching kurta,
+             ethnic jewellery and heels for any traditional events or celebrations. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton <br>
+            Pattern : Stripes<br>
+            Type of work : Printed<br>
+            Occasion : Casual
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi Color Ethnic Motifs A-Line Cotton Slub Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Flaunt your chic style with this stunning multi coloured printed maxi skirt from Jaipur Kurti. 
+            Style this skirt with a basic tank top or a cropped blouse and a pair of wedge heels to make a statement. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton <br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+            Occasion : Casual
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Harem</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Take a more relaxed approach towards fashion by wearing our harem pants.
+             This traditional arabic silhouette with it’s gathered fullness and cuffed hem will help
+              you make a style statement instantly. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose <br>
+            Pattern : Solid/Plain<br>
+            
+            Occasion : Casual
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Solid Jodhpuri Pants</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Make a bold fashion statement wearing this pair of jodhpuri pants by desi weaves.
+             With flawless fit and finish, these pants are sure to lend you a sophisticated look. High on style,
+             these comfortable pants will go well with a tank top or a racer-back top. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton <br>
+            Pattern : Solid/Plain<br>
+            
+            Occasion : Casual
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Tie Dye Sharara</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">These sharara pants by Indya are a must-have in your wardrobe.
+             Pair them with a top, heels and fine accessories to complete the look. </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton <br>
+            Pattern : Tie & Dye<br>
+            Type of work : Printed<br>
+            Occasion : Ethnic
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms13.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Gold Solid Art Silk Churidar</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">A golden churidar featuring elasticated waist and drawstring. 
+            The color and a touch of shimmer making it a perfect pairing option for your festive kurtas </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester <br>
+            Pattern : Solid/Plain<br>
+            
+            Occasion : Party
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/bottoms14.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Solid Cotton Camric Pant</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Pair these black solid pants from Jaipur Kurti with a matching top or tunic, 
+            embellished accessories and heels to complete your ravishing look for any occasion. Pants only </p>
+             <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton <br>
+            Pattern : Solid/Plain<br>
+            
+            Occasion : Casual
+            
+            </p>
+</div>
+</div><br><br>
+{% endblock %}

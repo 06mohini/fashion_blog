@@ -1,0 +1,286 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{%  block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Mehreen Burgundy Suit Set</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Deep wine shade flare kurta and palazzo enhanced with golden gotta on the front yoke,
+             hem of sleeves and palazzo, teamed with beautiful wine georgette dupatta enhanced with 
+             golden gotta phool.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of Work : Gota<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Lime Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a lime embroidered saree in organza base. 
+            It is paired with a contrast blue blouse in chanderi.   </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Organza<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Embellished & Sequined<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Mustard Bridal Semi Stitched Blouse Art Silk Wedding Lehenga With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">MIMOSA has crafted this lehenga choli to celebrate a blend of tradition and style.
+             While the deep colours and extensive Zari add to the overall richness, 
+             the modern cut makes it apt for a contemporary woman. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Embellished/Sequined<br>
+            Type of Work : Embellished & Sequined<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Inddus Multicolour Silk Blend Woven Saree</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This multi-coloured saree by Inddus is crafted in silk and polyester and features
+             a printed detailing and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Checks<br>
+            Type of Work : Zari<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Powder Blue Anarkali With Churidar And Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Adorn yourself with our powder blue georgette anarkali set! the dress features
+             round neck with elbow sleeves which comes up with shantoon churidar and golden tasseled dupatta </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Georgette<br>
+            Pattern : Blocks<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> White Crochet Angrakha Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">White grid pattern cotton angrakha dress with crochet lace highlight on neck,
+             front bodice and sleeves. The dress has side zip for closure and 1 side pocket. It has lining through out.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Blocks<br>
+            Type : Maxi
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Red Embroidered Blouse & Lehenga With Dupatta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This red bridal lehenga set comes with a stitched blouse, pair of lehengas and 
+            a matching hand embroidered net dupatta. The kalidaar lehenga is handcrafted in chanderi and 
+            embellished with machine and hand embroidery. The matching embroidered angrakha style blouse 
+            has a V neck, long sleeves, slim fit and is accentuated with tie-up belt.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Chanderi<br>
+            Pattern : Embellished/Sequined<br>
+            Type of work : Embellished & Sequined
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Gold Full Fringe Sari </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This pre-draped saree by 431-88 by Shweta Kapur is crafted in satin. 
+            It features a gold hue and is accented with fringes. Pair this piece with a statement
+             blouse and a clutch for your next cocktail event or wedding reception. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Satin<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Pink Ruffle Draped Saree With Blouse </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring an onion pink ruffled draped saree in light weight silk base.
+            It is paired an onion pink embroidered blouse with contrast emerald green beads. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Ruffled<br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Green Blouse & Pleated Skirt With Cape  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Featuring a lime pleated skirt in lightweight silk base.
+            It is paired with a lime blouse with contrast emerald green beaded embroidery 
+            and a lime pleated cape. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Silk<br>
+            Pattern : Embellished/Sequined <br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> TrueBrowns Red Gold Brocade Dress  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This red dress is crafted in brocade and features a round neck,
+             long sleeves accented with embellished cuffs, soft gathers on the waistline, 
+             side slit pockets, a side zip fastening and a regular fit. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Brocade<br>
+            Pattern : Solid/Plain <br>
+            Type of Work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/wedding12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b> Off White Anarkali Kurta with Dhoti Set  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Abhishti Polysilk Flared Kurta with Churidar Sleeves and Gota Patti with Bottom </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton Silk<br>
+            Pattern : Solid/Plain <br>
+            
+            </p>
+</div>
+</div>
+{% endblock %}

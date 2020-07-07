@@ -1,0 +1,251 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{% block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Cotton Grey Solid A-Line Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This Grey kurta from Indi Inside is a mix of smartness and grace. 
+            The lovely and cheerful color of this attire is awe inspiring </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Solid/Plain<br>
+            Type of work : Thread Work<br>
+            Type : Everyday Essential</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Casual Wear Multi-Color Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Add this tunic to your ethnic wear collection. 
+            Style it with a pair of pants and flats to complete the look. Tunic only. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type of work : Printed<br>
+            Type : Casual</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Fusion of Prints Anarkali Cotton Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Get noticed everywhere you go by wearing this kurta.
+             Pair it with matching leggings and heels to complete the look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            Type of work : Shibori<br>
+            Type : Everyday Essentials</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Off White Embroidered Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Button-down shirt
+            Features all over Dori embroidered dots with split side dip hem
+            Solid piping on neck and sleeves </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Embroidered<br>
+            Type of work : Embroidered<br>
+            Type : Vacations</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Women's Black Poly Crepe Jacket Style Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This black jacket style kurta by Janasya is crafted in crepe and features a round neck and 3/4th sleeves.
+             Team this kurta with leggings and heels for a chic look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Type of work : Block Print<br>
+            Type : Festive</p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Angrakha Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This green angrakha kurta by Shades is crafted in kota fabric and features
+             a surplice neck, long sleeves, self tie-up details, chikankari work details all over and a regular fit</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Kota<br>
+            Pattern : Embroidered<br>
+            Type of work : Chikankari<br></p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>White Front Slit Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This white crepe kurta features a round neck, 3/4th sleeves and a front slit with pink pom pom on its side</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Solid/Plain<br>
+            Occasion : Festive<br></p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Straight Yarn Dyed Rayon Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Flaunt your chic style with this elegant black striped kurta from Jaipur Kurti.
+             Style this kurta with a pair of white palazzos pants and high heels to complete the look.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Stripes<br>
+            Type of work : Printed<br>
+            Occasion : Casual<br></p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Tail Cut Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This red and white khadi tail cut kurta features a high neck, 3/4th sleeves, pocket and frill design.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Khadi<br>
+            Pattern : Checks<br>
+            Occasion : Festive<br></p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Red Cotton Silk Kalidar Princess Cut Flared Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Princess cut detailed kurta in cotton silk is elegance personified.
+             Monochrome pair with comfortable silhouette is the best thing you can wear this season.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton Silk<br>
+            Pattern : Solid/Plain<br>
+            Occasion : Festive<br></p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/kurti12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Grey Cut Dana Short Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This grey rayon short kurta features a round neck, 3/4th sleeves and cut dana details in the front with buttons.
+             This kurta has a regular fit. Style this pair with a leggings.</p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Solid/Plain<br>
+            Occasion : Festive<br></p>
+</div>
+</div><br><br>
+{% endblock %}

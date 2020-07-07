@@ -1,0 +1,284 @@
+{% extends "femalewears/indianwear.html" %}
+{% load static%}
+{% block introsection %}
+{% endblock %}
+{% block sidebar %}
+<h3><b><i>Indian Wear</i></b></h3><br>
+                    <p><i><b>Filters</b></i></p>
+                    <p><i><u><b>Categories</b></u></i></p>
+                        <a href="{% url 'blouse' %}">
+                        <h5>Blouse</h5></a>
+                        <a href="{% url 'kurtikurta' %}">
+                        <h5>Kurtis Kurtas & Tunics</h5></a>
+                        <a href="{% url 'lehenga' %}">
+                        <h5>lehengas</h5></a>
+                        <a href="{% url 'salwarsuit' %}">
+                        <h5>Salwar Suit</h5></a>
+                        <a href="{% url 'saree' %}">
+                        <h5>Sarees</h5></a>
+                        <a href="{% url 'dupattas' %}">
+                        <h5>Dupattas</h5></a>
+                        <a href="{% url 'ethnicdress' %}">
+                        <h5>Ethnic Dress</h5></a>
+                        <a href="{% url 'ethnicjackets' %}">
+                        <h5>Ethnic Jackets</h5></a>
+                        <a href="{% url 'bottoms' %}">
+                        <h5>Bottoms</h5></a>
+                    <br>
+                    <p><i><u><b>Occasions</b></u></i></p>
+                    <a href="{% url 'casual' %}">
+                    <h5>Casual</h5></a>
+                    <a href="{% url 'festival' %}">
+                    <h5>Festival</h5></a>
+                    <a href="{% url 'formal' %}">
+                    <h5>Formal</h5></a>
+                    <a href="{% url 'party' %}">
+                    <h5>Party</h5></a>
+                    <a href="{% url 'evening' %}">
+                    <h5>Evening</h5></a>
+                    <a href="{% url 'work' %}">
+                    <h5>Work</h5></a>
+                    <a href="{% url 'wedding' %}">
+                    <h5>Wedding</h5></a>
+                    <a href="{% url 'vacations' %}">
+                    <h5>Vacations</h5></a>
+                    <br>
+                    <p><i><u><b>Types</b></u></i></p>
+                    <a href="{% url 'pants' %}">
+                    <h5>Pants</h5></a>
+                    <a href="{% url 'skirts' %}">
+                    <h5>Skirts</h5></a>
+                    <a href="{% url 'leggings' %}">
+                    <h5>Leggings</h5></a>
+                    <a href="{% url 'churidars' %}">
+                    <h5>Churidar</h5></a>
+                    <a href="{% url 'dhotis' %}">
+                    <h5>Dhotis</h5></a>
+                    <a href="{% url 'plazzos' %}">
+                    <h5>Palazzos</h5></a>
+                    <a href="{% url 'shararas' %}">
+                    <h5>Sharara</h5></a>
+                    <br>
+                    <p><i><u><b>Pattern</b></u></i></p>
+                    <a href="{% url 'solid' %}">
+                    <h5>Solid/Plain</h5></a>
+                    <a href="{% url 'printed' %}">
+                    <h5>Printed</h5></a>
+                    <a href="{% url 'floral' %}">
+                    <h5>Floral</h5></a>
+                    <a href="{% url 'mirror' %}">
+                    <h5>Mirror Work</h5></a>
+                    <a href="{% url 'stripes' %}">
+                    <h5>Stripes</h5></a>
+                    <a href="{% url 'checks' %}">
+                    <h5>Checks</h5></a>
+                    
+                    <a href="{% url 'embroidered' %}">
+                    <h5>Embroidered</h5></a>
+
+{% endblock %}
+{%  block mainbar %}
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Blue Rayon Kurta With Pant And Dupatta  </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The kurta features a round neck, 3/4th sleeves, a tie-up detailing on the neckline
+             with tassels and side slits. This set comes with matching tapered pants that 
+            feature an elasticated back and a peach dupatta featuring golden borders and tassel embellishments. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Rayon<br>
+            Pattern : Solid/Plain<br>
+            Type : Tassels<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening2.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Navy Blue Poly Crepe Top With Palazzo And Jacket </b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">The crop top is sleeveless and features a round neck, a printed detailing all over and
+             embellishments at the hem. This set comes with matching flared palazzo pants
+             featuring an elasticated back and a jacket that features 3/4th semi sheer sleeves and an open front. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Embroidered<br>
+            Type : Embroidered<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening3.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Teal Band Collar 3/4 Sleeves Printed Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This teal printed tunic by Label Ritu Kumar is crafted in cotton, viscose and 
+            georgette and features a mandarin neck, 3/4th sleeves, embroidery detailing and a flared silhouette. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Printed<br>
+            
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening4.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Peach Poly Crepe Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This stylish foil print kurta from janasya is made of poly crepe and comes in an 
+            attractive peach Color. It features half sleeve, round neck,
+             flared and it is ankle length kurta that is suitable for casual occasions.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Type of work : Printed
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening5.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Poly Crepe Ruffle Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This stylish floral print kurta from janasya is made of poly crepe and comes in an attractive black Color. It features 3/4 sleeve,
+             round neck, a-line and it is calf length ruffle kurta that is suitable for casual occasions.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Floral<br>
+            Type of work : Printed
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening6.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Baby Pink Stripes Saree With Blouse</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Our new stripe saree is bold yet elegant. Wear it with our bralette and complete the look !!  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Stripes<br>
+            Type of work : Printed
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening7.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Brown Poly Crepe Kurti With Sharara</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Be the cynosure of all eyes by wearing sharara short kurti set by Janasya.
+             Kurti set crafted from poly crepe fabric, it is light in weight and will be soft for your skin.
+             This suit set has a soothing colour and will lend you a fresh look this season. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Solid/Plain<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening8.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Pink Mirror Work High Slit Tunic</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Equal parts glitzy and muted, this pink tunic is your answer to day occasion dressing.
+             Featuring subtle mirror work on the yoke and a flirtatious high-slit, this tunic brings
+              just the right amount of glam to the table. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Polyester<br>
+            Pattern : Mirror Work<br>
+            Type of work : Mirror Work<br>
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening9.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Cotton Panelled Kurti With Culottes</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Cotton dobby panelled kurta with 2 side pockets. 
+            It comes along with cotton dobby bottom with full elasticated waist. 
+            Wear the outfit as such or without the bottom for a contemporary look. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Cotton<br>
+            Pattern : Checks<br>
+            
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening10.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Green Printed Jacket With Drape Skirt</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">Printed jacket hilighted with embroidery is paired with drape skirt to give a look like a saree. </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Floral<br>
+            Type of work : Embellished & Sequined
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening11.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Multi-Color Assymetrical Printed Maxi Dress</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This printed dress by Ritu Kumar is crafted in viscose and features a mandarin collar neck, long sleeves with buttoned cuffs,
+             front buttons placket, pleats on the bodice, an asymmetrical hemline and a regular fit.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Viscose<br>
+            Pattern : Printed<br>
+            Type : Maxi Dress
+            </p>
+</div>
+</div>
+<div class="row ">
+    <div id="saree" class="col-md-4 ">
+        <img src="{% static 'img/evening12.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
+        <p><b>Black Poly Crepe Cape Sleeve Kurta</b></p>
+    </div>
+    <div id="saree3" class="col-md-8  ">
+        <h3 id="saree1">Description</h3>
+        <p id="saree1">This stylish foil print kurta from janasya is made of poly crepe and comes in an
+             attractive black color. It features cape sleeves,round neck,a-line and it is ankle length
+              cape sleeve kurta that is suitable for casual occasions.  </p>
+        <h3 id="saree2">Product Details</h3>     
+        <p id="saree1">Material : Crepe<br>
+            Pattern : Printed<br>
+            Type of work : Printed
+            </p>
+</div>
+</div><br><br>
+{% endblock%}
