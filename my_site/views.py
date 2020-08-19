@@ -1,6 +1,21 @@
 from django.shortcuts import render
+from .models import Feedback
+
+
+
 def index(request):
-    return render(request,"index.html")
+    if request.method == 'POST':
+
+        email = request.POST[ 'email']
+        comment = request.POST['message']
+        feedback = Feedback(email=email, comment=comment)
+        feedback.save()
+    else:
+        print('not done')
+
+    return render(request,"index.html")    
+
+
 def about(request):
     return render(request,"about.html") 
 def female(request):

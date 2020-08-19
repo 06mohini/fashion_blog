@@ -17,13 +17,7 @@
                         <i class="far fa-envelope"></i> &nbsp; info@mohinivarshney06.com
                     </div>
                     
-                    <div class="socials">
-                        <span style="font-size: 3em; "></span>
-                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-facebook "></i></a>
-                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-instagram  "></i></a>
-                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-twitter  "></i></a>
-                        <a herf="#" class="btn btn-outline-secondary text-center"><i class="fab fa-youtube  "></i></a>
-                    </div>
+                    
                 </div>
                 <div class="col-sm-4 text-white" >
                     
@@ -42,10 +36,12 @@
                 </div>
                 <div class="col-sm-4 text-white">
                     <h2 class="text-center">
-                        Contact Us
+                        Feedback 
                     </h2>
                     <br>
-                    <form action="_footer.html" method="post" id="contact_us">
+
+                    <form action="{% url 'index' %}" method="POST" id="contact_us">
+                        {% csrf_token %}
                         <div class="form-group">
                         <input type="email" name="email" class="text-input contact-input form-control" placeholder="your email address....">
                     </div>
