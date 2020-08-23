@@ -1,4 +1,9 @@
-
+    #btn .btn-group button{
+      background: linear-gradient( to right, rgba(33, 148, 241, 0.945), rgba(17, 202, 226, 0.952));
+      color: white;
+      height: 45px;
+     
+    }
     /* Make the image fully responsive */
     #same{
         background:url("../img/gippy2.jpg");
