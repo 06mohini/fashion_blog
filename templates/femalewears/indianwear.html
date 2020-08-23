@@ -25,14 +25,67 @@
                     the other, this has given rise to varied kinds of dresses and styles.
                   </i>
                 </p></center>
+
              </div>
              <div class="col-md-3">
                 <img src="{% static 'img/1.jpg' %}" class="img-responsive" alt="lights" style="width:100%">
              </div>
              {% endblock %}
          </div>
+<br>        
+         <center>
+          <div class="container d-sm-block d-md-none d-lg-none " id="btn">
+            
+            
+               <div class="btn-group mr-4" id="btns">
+                  <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                        Categories
+                     </button>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                     </div>
+                  </div>   
+
+                  
+                  <div class="btn-group mr-4 ">
+                  <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                       Occasions
+                     </button>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                     </div>
+                  </div> 
+
+
+                  <div class="btn-group mr-4">
+                     <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                     Type
+                     </button>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                     </div>
+                  </div>
+
+
+                  <div class="btn-group">
+                  <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown">
+                        Pattern
+                     </button>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Tablet</a>
+                        <a class="dropdown-item" href="#">Smartphone</a>
+                     </div>
+                  </div> 
+            
+            
+         </div>
+         </center>
           <div class="row mx-auto">
-              <div id="category" class="col-md-3">
+          <!--Categories displayed at Md and Lg screen-->
+              <div id="category" class="col-md-3 d-none d-sm-none d-md-block d-lg-block">
                     {% block sidebar %}
                     <h3><b><i>Indian Wear</i></b></h3><br>
                     <p><i><b>Filters</b></i></p>
@@ -109,6 +162,7 @@
 
                     {% endblock %}
               </div>
+
               <div class="col-md-9  ">
                      {% block mainbar %}
                      
@@ -119,9 +173,12 @@
                                <p><b>Ethnic Dress(croptop skirt)</b>
                                  <a type="button" class="btn btn-outline-secondary text-light" href="{% url 'ethnicdress' %}">
                                   read more</a></p>
-                                  <p class="d-block d-lg-none">Ethnic Dress(croptop skirt)</p>
-                            </div>
-                            
+                                        
+                              </div>
+                          
+                            <p class="d-sm-block d-md-none d-lg-none"><b>Ethnic Dress(croptop skirt)</b></p>
+                         
+
                             <div id="highlight" class="col-md-3 ">
                               <img src="{% static 'img/salwarsuit.jpg' %}" alt="lights"> 
                               <p><b>Salwar Suit</b>
@@ -129,6 +186,9 @@
                                     read more</a></p>
                                 </a>
                             </div>
+                            <center>
+                            <p class="d-sm-block d-md-none d-lg-none"><b>Ethnic Dress(croptop skirt)</b></p>
+                            </center>
                             
                             <div id="highlight" class="col-md-3 ">
                                 <img src="{% static 'img/saree.jpg' %}" alt="lights"> </a>
