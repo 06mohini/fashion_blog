@@ -1,3 +1,4 @@
+    
     #btn .btn-group button{
       background: linear-gradient( to right, rgba(33, 148, 241, 0.945), rgba(17, 202, 226, 0.952));
       color: white;
@@ -136,7 +137,7 @@
     }
 
     .footer .footer-content {
-        border: 1px solid red;
+       
         height: 350px;
         display: flex;
     }
@@ -378,11 +379,12 @@
         }
       }
       #saree img{
-        width:100%;
-        max-height:290px;
-        min-height:290px;
+        width:80%;
+        max-height:300px;
+        min-height:300px;
         margin-top: 80px;
         margin-right: 40px;
+        
         
       }
       #saree p{
