@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1w3&eiayrezx9$$p4lg4g2!x0)m%yhwwsosp*ex40_)dkoi0ya'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fashionpointmania.herokuapp.com/","127.0.0.1:8000"]
 
 
 
@@ -124,4 +124,7 @@ STATIC_ROOT=os.path.join(BASE_DIR,"staticfiles")
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[os.path.join(BASE_DIR,"demo/static"),]
 
+# https://warehouse.python.org/project/whitenoise/
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 django_heroku.settings(locals())
