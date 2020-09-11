@@ -24,7 +24,7 @@ SECRET_KEY = '1w3&eiayrezx9$$p4lg4g2!x0)m%yhwwsosp*ex40_)dkoi0ya'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["fashionpointmania.herokuapp.com/","127.0.0.1:8000"]
+ALLOWED_HOSTS = ["fashionpointmania.herokuapp.com","127.0.0.1:8000"]
 
 
 
