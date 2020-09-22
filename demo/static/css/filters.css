@@ -1,9 +1,17 @@
+.filters .row {
+        background:url("../img/img.jpg");
+        box-shadow: 5px 5px 5px 0px #D3D3D3;
+        
+  
+}
 #saree img{
     width:100%;
     max-height:300px;
     min-height:300px;
     margin-top: 80px;
     object-fit: cover;
+    
+    
     
     
   }
